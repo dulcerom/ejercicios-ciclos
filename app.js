@@ -26,66 +26,66 @@ Estructurado de Algoritmos*/
 
 /*2) Leer 10 números y obtener su cubo y su cuarta.*/
 
-for (let i = 0; i < 10; i++) {
-    let num = i+1;
-    let valornum = parseInt(prompt(`Ingrese el valor del número ${num}`));
-    cubo = Math.pow(valornum,3);
-    cuarta = Math.pow(valornum,4);
-    console.log(`El valor del número ${num} es ${valornum} y elevado al cubo es ${cubo} y elevado a la cuarta es ${cuarta}`);
-  }
+// for (let i = 0; i < 10; i++) {
+//     let num = i+1;
+//     let valornum = parseInt(prompt(`Ingrese el valor del número ${num}`));
+//     cubo = Math.pow(valornum,3);
+//     cuarta = Math.pow(valornum,4);
+//     console.log(`El valor del número ${num} es ${valornum} y elevado al cubo es ${cubo} y elevado a la cuarta es ${cuarta}`);
+//   }
 
 /*3) Leer 10 números e imprimir solamente los números positivos*/
 
-for (let i = 0; i < 10; i++) {
-    let numuno = i+1;
-    let valornumdos = parseInt(prompt(`Ingrese el valor del número ${numuno}`));
-    if(valornumdos > 0){
-        console.log(`El valor es ${valornumdos} y es un número positivo`);
-    }else 
-        console.log(`El valor es ${valornumdos} y no es positivo`);
-  }
+// for (let i = 0; i < 10; i++) {
+//     let numuno = i+1;
+//     let valornumdos = parseInt(prompt(`Ingrese el valor del número ${numuno}`));
+//     if(valornumdos > 0){
+//         console.log(`El valor es ${valornumdos} y es un número positivo`);
+//     }else 
+//         console.log(`El valor es ${valornumdos} y no es positivo`);
+//   }
 
 /*4) Leer 20 números e imprimir cuantos son positivos, cuantos negativos y cuantos
 neutros.*/
 
-let positivos=0;
-let negativos=0;
-let neutros=0;
-for (let i = 0; i < 20; i++) {
-    let numdos = i+1;
-    let valornumtres = parseInt(prompt(`Ingrese el valor del número ${numdos}`));
-    if(valornumtres == 0){
-        neutros=neutros+1;
-        console.log(`El valor es ${valornumtres} es número neutro`);
-    }else if(valornumtres<0){
-        negativos=negativos+1;
-        console.log(`El valor es ${valornumtres} es número negativo`);
-    }else {
-        positivos=positivos+1;
-        console.log(`El valor es ${valornumtres} es número positivo`);
-    }
-  }
-  console.log(`El total de números positivos son ${positivos}`);
-  console.log(`El total de números negativos son ${negativos}`);
-  console.log(`El total de números neutros son ${neutros}`);
+// let positivos=0;
+// let negativos=0;
+// let neutros=0;
+// for (let i = 0; i < 20; i++) {
+//     let numdos = i+1;
+//     let valornumtres = parseInt(prompt(`Ingrese el valor del número ${numdos}`));
+//     if(valornumtres == 0){
+//         neutros=neutros+1;
+//         console.log(`El valor es ${valornumtres} es número neutro`);
+//     }else if(valornumtres<0){
+//         negativos=negativos+1;
+//         console.log(`El valor es ${valornumtres} es número negativo`);
+//     }else {
+//         positivos=positivos+1;
+//         console.log(`El valor es ${valornumtres} es número positivo`);
+//     }
+//   }
+//   console.log(`El total de números positivos son ${positivos}`);
+//   console.log(`El total de números negativos son ${negativos}`);
+//   console.log(`El total de números neutros son ${neutros}`);
 
 
 
 /*5) Leer 15 números negativos y convertirlos a positivos e imprimir dichos números.*/
 
-for (let i = 0; i < 15; i++) {
-    let numtres = i+1;
-    let valornum4 = parseInt(prompt(`Ingrese el valor del número ${numtres}`));
+// for (let i = 0; i < 15; i++) {
+//     let numtres = i+1;
+//     let valornum4 = parseInt(prompt(`Ingrese el valor del número ${numtres}`));
 
-    if(valornum4 == 0){
-        console.log(`El valor  ${valornum4} es número neutro`);
-    }else if(valornum4 <0 ){
-         numConvpositivo=Math.abs(valornum4);
-         console.log(`El valor ${valornum4} es número negativo, y convertido a positivo es ${numConvpositivo}`);
-    }else {
-        console.log(`El valor ${valornum4} es número positivo`);
-    }  
-}
+//     if(valornum4 == 0){
+//         console.log(`El valor  ${valornum4} es número neutro`);
+//     }else if(valornum4 <0 ){
+//          numConvpositivo=Math.abs(valornum4);
+//          console.log(`El valor ${valornum4} es número negativo, y convertido a positivo es ${numConvpositivo}`);
+//     }else {
+//         console.log(`El valor ${valornum4} es número positivo`);
+//     }  
+// }
 
 /*6) Suponga que se tiene un conjunto de calificaciones de un grupo de 40 alumnos.
 Realizar un algoritmo para calcular la calificación media y la calificación mas baja de
@@ -113,27 +113,27 @@ todo el grupo.*/
 /*7) Calcular e imprimir la tabla de multiplicar de un numero cualquiera. Imprimir el
 multiplicando, el multiplicador y el producto.*/
 
-let multiplicando= parseInt(prompt(`Ingrese el número de la tabla de multiplicar a visualizar.`));
+// let multiplicando= parseInt(prompt(`Ingrese el número de la tabla de multiplicar a visualizar.`));
 
-for (let i = 0; i < 10; i++){
-    multiplicador=i+1;
-    producto=multiplicando*multiplicador;
-    console.log(`${multiplicando} * ${multiplicador} = ${producto}`);
-} 
+// for (let i = 0; i < 10; i++){
+//     multiplicador=i+1;
+//     producto=multiplicando*multiplicador;
+//     console.log(`${multiplicando} * ${multiplicador} = ${producto}`);
+// } 
 
 
 
 /*8) Simular el comportamiento de un reloj digital, imprimiendo la hora, minutos y
 segundos de un día desde las 0:00:00 horas hasta las 23:59:59 horas*/
 
-for(let horas=0; horas<24; horas++)
-{
-    for (let minutos = 0; minutos < 60; minutos++) {
-        for (let segundos = 0; segundos < 60; segundos++) {
-            console.log(`${horas}:${minutos}:${segundos}`);   
-        }
-    }
-}
+// for(let horas=0; horas<24; horas++)
+// {
+//     for (let minutos = 0; minutos < 60; minutos++) {
+//         for (let segundos = 0; segundos < 60; segundos++) {
+//             console.log(`${horas}:${minutos}:${segundos}`);   
+//         }
+//     }
+// }
 
 
 /*9) Una persona debe realizar un muestreo con 50 personas para determinar el promedio
@@ -186,33 +186,33 @@ Viejos
 15% de descuento si compran mas de 10 kilos. Determinar cuanto pagara cada cliente y
 cuanto percibirá la tienda por esas compras.*/
 
-let precioN = parseFloat(prompt(`Ingrese el precio por kilo de la naranja`));
- let totalTienda=[];
-for (let i = 0; i < 4; i++)
- {
-    let cliente=i+1;
-    let kilosN = parseInt(prompt(`Cliente ${cliente} ¿Cuántos kilos de naranja compró ?`));
-    if(kilosN > 10){
-        let totalPgo=kilosN*precioN;
-        let descuento=totalPgo*0.15;
-        let totalPgofinal=totalPgo-descuento;
-        console.log(`Usted cliente ${cliente} compró ${kilosN}Kg. su total a pagar es $${totalPgofinal}`);
-        totalTienda.push(totalPgofinal);
-    }else{
-        let totalPgo=kilosN*precioN;
-        let totalPgofinal=totalPgo;
-        console.log(`Usted cliente ${cliente} compró ${kilosN}Kg. su total a pagar es $${totalPgofinal}`);
-        totalTienda.push(totalPgofinal);
-    }
- }
-//  console.log(totalTienda);
- let sumaGanancia=0;
+// let precioN = parseFloat(prompt(`Ingrese el precio por kilo de la naranja`));
+//  let totalTienda=[];
+// for (let i = 0; i < 4; i++)
+//  {
+//     let cliente=i+1;
+//     let kilosN = parseInt(prompt(`Cliente ${cliente} ¿Cuántos kilos de naranja compró ?`));
+//     if(kilosN > 10){
+//         let totalPgo=kilosN*precioN;
+//         let descuento=totalPgo*0.15;
+//         let totalPgofinal=totalPgo-descuento;
+//         console.log(`Usted cliente ${cliente} compró ${kilosN}Kg. su total a pagar es $${totalPgofinal}`);
+//         totalTienda.push(totalPgofinal);
+//     }else{
+//         let totalPgo=kilosN*precioN;
+//         let totalPgofinal=totalPgo;
+//         console.log(`Usted cliente ${cliente} compró ${kilosN}Kg. su total a pagar es $${totalPgofinal}`);
+//         totalTienda.push(totalPgofinal);
+//     }
+//  }
+// //  console.log(totalTienda);
+//  let sumaGanancia=0;
 
- totalTienda.forEach(function(kilosN) {
-     sumaGanancia += kilosN;
- });
+//  totalTienda.forEach(function(kilosN) {
+//      sumaGanancia += kilosN;
+//  });
 
- console.log(`las ganancias fueron $ ${sumaGanancia}`);
+//  console.log(`las ganancias fueron $ ${sumaGanancia}`);
 
 /*11) En un centro de verificación de automóviles se desea saber el promedio de puntos
 contaminantes de los primeros 25 automóviles que lleguen. Asimismo se desea saber los
@@ -279,7 +279,7 @@ switch (animal){
             let edadElefante = parseInt(prompt(`Ingrese la edad del elefante No. ${elefante}`));
             if (edadElefante >0 && edadElefante <2){
                  contElefantes1=contElefantes1+1;
-            } else if (edadElefante>2 && edadElefante<3){
+            } else if (edadElefante>1 && edadElefante<3){
                 contElefantes2=contElefantes2+1;
             }else if(edadElefante>=3){
                 contElefantes3=contElefantes3+1;
@@ -301,7 +301,7 @@ switch (animal){
             let edadJirafa = parseInt(prompt(`Ingrese la edad de la Jirafa No. ${jirafa}`));
            if (edadJirafa >0 && edadJirafa <2){
               contJirafas1=contJirafas1+1;
-           } else if (edadJirafa>2 && edadJirafa<3){
+           } else if (edadJirafa>1 && edadJirafa<3){
               contJirafas2=contJirafas2+1;
            }else if(edadJirafa>=3){
               contJirafas3=contJirafas3+1;
@@ -321,19 +321,19 @@ switch (animal){
               let chimpance=i+1;
                 let edadChimpance = parseInt(prompt(`Ingrese la edad del Chimpancé No. ${chimpance}`));
            if (edadChimpance >0 && edadChimpance <2){
-              contChimpance1=contChimpance1+1;
-           } else if (edadChimpance>2 && edadChimpance<3){
-              contChimpance2=contChimpance2+1;
+              contChimpances1=contChimpances1+1;
+           } else if (edadChimpance>1 && edadChimpance<3){
+              contChimpances2=contChimpances2+1;
            }else if(edadChimpance>=3){
-              contChimpance3=contChimpance3+1;
+              contChimpances3=contChimpances3+1;
            }
        }
-        let porcentajeChimpance1=(contChimpance1/chimpancesMuestra)*100;
-        let porcentajeChimpance2=(contChimpance2/chimpancesMuestra)*100;
-        let porcentajeChimpance3=(contChimpance3/chimpancesMuestra)*100;
-       console.log(`el porcentaje de jirafas entre 0 y 1 años es ${porcentajeChimpance1}`);
-       console.log(`el porcentaje de jirafas entre 1 y 3 años es ${porcentajeChimpance2}`);
-       console.log(`el porcentaje de jirafas igual o mayores que 3 años es ${porcentajeChimpance3}`);
+        let porcentajeChimpances1=(contChimpances1/chimpancesMuestra)*100;
+        let porcentajeChimpances2=(contChimpances2/chimpancesMuestra)*100;
+        let porcentajeChimpances3=(contChimpances3/chimpancesMuestra)*100;
+       console.log(`el porcentaje de jirafas entre 0 y 1 años es ${porcentajeChimpances1}`);
+       console.log(`el porcentaje de jirafas entre 1 y 3 años es ${porcentajeChimpances2}`);
+       console.log(`el porcentaje de jirafas igual o mayores que 3 años es ${porcentajeChimpances3}`);
        break;
 
        default:
