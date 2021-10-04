@@ -339,3 +339,7 @@ switch (animal){
        default:
            console.log('Solo Elefantes, Jirafas y Chimpances pueden ser evaluados');
     }
+
+    console.log(`el porcentaje de jirafas entre 0 y 1 años es ${porcentajeChimpances1}`);
+       console.log(`el porcentaje de jirafas entre 1 y 3 años es ${porcentajeChimpances2}`);
+       console.log(`el porcentaje de jirafas igual o mayores que 3 años es ${porcentajeChimpances3}`);
